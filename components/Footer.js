@@ -4,7 +4,8 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you
+        Twitter <img src="/twitter.svg" alt="Twitter Logo" className={styles.logo} />
+        Discord <img src="/discord.svg" alt="Discord Logo" className={styles.logo} />
       </footer>
     </>
   )
