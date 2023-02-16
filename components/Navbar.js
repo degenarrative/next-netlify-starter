@@ -14,14 +14,10 @@ export default function Navbar() {
       <Link href="/">
         <a className={styles.navbarBrand}>Degenarrative</a>
       </Link>
-      <button
-        className={styles.navbarToggle}
-        onClick={toggleNavbar}
-        aria-label="Toggle Navigation"
-      >
-        <span className={styles.iconBar}></span>
-        <span className={styles.iconBar}></span>
-        <span className={styles.iconBar}></span>
+      <button className={styles.hamburger} onClick={handleClick}>
+        <div className={open ? styles.line1open : styles.line1}></div>
+        <div className={open ? styles.line2open : styles.line2}></div>
+        <div className={open ? styles.line3open : styles.line3}></div>
       </button>
       <ul
         className={`${styles.navbarNav} ${isOpen ? styles.open : ''}`}
