@@ -11,7 +11,7 @@ export default function Navbar() {
           </Link>
         </li>
         <li className={styles.navListItem}>
-          <Link href="/signup">
+          <Link href="https://coda.io/form/Neo-Elite-Radical-Degens_dtwh87bz2h-">
             <a className={styles.navButton}>Sign Up</a>
           </Link>
         </li>
