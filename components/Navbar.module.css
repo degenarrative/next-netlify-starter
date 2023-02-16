@@ -8,25 +8,34 @@
   width: 100%;
 }
 
-.navLinks {
-  display: flex;
+.navList {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 100%;
-  background-color: #333;
+  display: flex;
+}
+
+.navItem {
+  margin-left: auto;
 }
 
 .navLink {
-  padding: 10px;
-  border-bottom: 1px solid #555;
-}
-
-.navLink a {
   color: #fff;
   text-decoration: none;
 }
 
-.navLink a:hover {
+.navLink:hover {
   text-decoration: underline;
+}
+
+.navButton {
+  color: #fff;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.navButton:hover {
+  background-color: darkblue;
 }
