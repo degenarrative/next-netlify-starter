@@ -10,7 +10,7 @@ export default function Navbar() {
             <a className={styles.navLink}>Home</a>
           </Link>
         </li>
-        <li className={styles.navItem}>
+        <li className={styles.navListItem}>
           <Link href="/signup">
             <a className={styles.navButton}>Sign Up</a>
           </Link>
