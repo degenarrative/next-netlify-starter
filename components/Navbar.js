@@ -4,21 +4,22 @@ import styles from './Navbar.module.css';
 export default function Navbar() {
   return (
     <nav className={styles.nav}>
-      <ul className={styles.navLinks}>
-        <li className={styles.navLink}>
+      <ul className={styles.navList}>
+        <li>
           <Link href="/">
-            <a>Home</a>
+            <a className={styles.navLink}>Home</a>
           </Link>
         </li>
-        <li className={styles.navLink}>
+        <li className={styles.navItem}>
           <Link href="/signup">
-            <a>Sign Up</a>
+            <a className={styles.navButton}>Sign Up</a>
           </Link>
         </li>
       </ul>
     </nav>
   );
 }
+
 
 
 
