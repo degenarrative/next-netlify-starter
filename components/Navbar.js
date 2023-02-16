@@ -16,7 +16,11 @@ export default function Navbar({ title }) {
           <a>{title}</a>
         </Link>
       </div>
-      <button className={styles['navbar-toggle']} onClick={toggleMenu}>
+      <button
+        className={styles['navbar-toggle']}
+        onClick={toggleMenu}
+        aria-label={showMenu ? 'Close menu' : 'Open menu'}
+      >
         <div className={styles.iconBar}></div>
         <div className={styles.iconBar}></div>
         <div className={styles.iconBar}></div>
@@ -35,6 +39,7 @@ export default function Navbar({ title }) {
     </nav>
   );
 }
+
 
 
 
