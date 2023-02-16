@@ -3,14 +3,14 @@ import styles from './Navbar.module.css';
 
 export default function Navbar() {
   return (
-    <nav className={styles.navbar}>
-      <ul>
-        <li>
+    <nav className={styles.nav}>
+      <ul className={styles.navLinks}>
+        <li className={styles.navLink}>
           <Link href="/">
             <a>Home</a>
           </Link>
         </li>
-        <li>
+        <li className={styles.navLink}>
           <Link href="/signup">
             <a>Sign Up</a>
           </Link>
