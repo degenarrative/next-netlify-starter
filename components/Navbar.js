@@ -1,46 +1,52 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
 
-export default function Navbar({ title }) {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
 
-  function handleMenuToggle() {
-    setIsMenuOpen(!isMenuOpen);
+  function toggleNavbar() {
+    setIsOpen(!isOpen);
   }
 
   return (
-    <nav className={styles.nav}>
-      <div className={styles.navbar}>
-        <div className={styles.brand}>
+    <nav className={styles.navbar}>
+      <Link href="/">
+        <a className={styles.navbarBrand}>Degenarrative</a>
+      </Link>
+      <button
+        className={styles.navbarToggle}
+        onClick={toggleNavbar}
+        aria-label="Toggle Navigation"
+      >
+        <span className={styles.iconBar}></span>
+        <span className={styles.iconBar}></span>
+        <span className={styles.iconBar}></span>
+      </button>
+      <ul
+        className={`${styles.navbarNav} ${isOpen ? styles.open : ''}`}
+        onClick={toggleNavbar}
+      >
+        <li className={styles.navItem}>
           <Link href="/">
-            <a>{title}</a>
+            <a className={styles.navLink}>Home</a>
           </Link>
-        </div>
-        <button className={styles.toggle} onClick={handleMenuToggle}>
-          <span className={styles.toggleIcon} aria-hidden="true"></span>
-        </button>
-        <ul className={`${styles.menu} ${isMenuOpen ? styles.open : ''}`}>
-          <li>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact">
-              <a>Contact</a>
-            </Link>
-          </li>
-        </ul>
-      </div>
+        </li>
+        <li className={styles.navItem}>
+          <Link href="/about">
+            <a className={styles.navLink}>About</a>
+          </Link>
+        </li>
+        <li className={styles.navItem}>
+          <Link href="/contact">
+            <a className={styles.navLink}>Contact</a>
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 }
+
 
 
 
