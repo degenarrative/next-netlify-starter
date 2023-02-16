@@ -67,30 +67,25 @@ code {
 
 .main-content {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  max-width: 960px;
+  max-width: 1024px;
   margin: 0 auto;
-  padding: 1rem;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 20px;
 }
 
 .main-text {
-  flex: 1 0 50%;
-  padding-right: 1rem;
+  width: 50%;
 }
 
 .main-image {
-  flex: 1 0 50%;
+  width: 50%;
   text-align: center;
 }
 
 .main-image img {
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
   display: block;
-  shape-outside: circle();
-  float: right;
-  margin-left: 1rem;
+  margin: 0 auto;
 }
 
