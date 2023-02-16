@@ -12,7 +12,6 @@ export default function Home() {
 
       <main>
         <Header title="...degenarrative..." />
-        <iframe src="https://coda.io/embed/twh87bz2h-" width=900 height=500 style="max-width: 100%;" allow="fullscreen"></iframe>
       </main>
 
       <Footer/>
