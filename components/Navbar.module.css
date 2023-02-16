@@ -1,117 +1,139 @@
-.nav {
+.navbar {
   background-color: #333;
-  height: 80px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-.container {
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
-  padding: 0 30px;
+  padding: 10px;
+}
+
+.navbarTitle {
+  font-size: 24px;
 }
 
 .hamburger {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  display: block;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+.hamburgerBox {
   width: 30px;
   height: 24px;
-  cursor: pointer;
-  background: transparent;
-  border: none;
-  z-index: 2;
-  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  position: relative;
 }
 
-.hamburger div {
-  width: 100%;
+.hamburgerInner {
+  display: block;
+  top: 50%;
+  margin-top: -2px;
+}
+
+.hamburgerInner,
+.hamburgerInner::before,
+.hamburgerInner::after {
+  width: 30px;
   height: 2px;
   background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  transition: transform 0.3s ease;
 }
 
-.line1 {
-  transform: rotate(0deg) translate(0, 0);
+.hamburgerInner::before,
+.hamburgerInner::after {
+  content: "";
+  display: block;
 }
 
-.line2 {
-  opacity: 1;
+.hamburgerInner::before {
+  top: -10px;
 }
 
-.line3 {
-  transform: rotate(0deg) translate(0, 0);
+.hamburgerInner::after {
+  bottom: -10px;
 }
 
-.line1open {
-  transform: rotate(45deg) translate(-1px, 1px);
+.open .hamburgerInner {
+  transform: rotate(45deg);
 }
 
-.line2open {
-  opacity: 0;
+.open .hamburgerInner::before {
+  transform: translate(10px, -10px) rotate(45deg);
 }
 
-.line3open {
-  transform: rotate(-45deg) translate(-1px, -1px);
+.open .hamburgerInner::after {
+  transform: translate(10px, 10px) rotate(-45deg);
 }
 
 .navLinks {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: absolute;
-  top: 80px;
-  right: 0;
-  height: calc(100vh - 80px);
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
   width: 100%;
   background-color: #333;
-  flex-direction: column;
-  transition: all 0.3s ease-in-out;
   overflow: hidden;
-}
-
-.navOpen {
-  right: 0;
+  transition: max-height 0.3s ease;
+  max-height: 0;
 }
 
 .navLink {
-  margin: 30px 0;
+  padding: 10px;
+  border-bottom: 1px solid #555;
 }
 
 .navLink a {
   color: #fff;
   text-decoration: none;
-  font-size: 24px;
-  text-align: center;
-  display: block;
 }
 
-@media (min-width: 768px) {
+.open .navLinks {
+  max-height: 300px;
+}
+@media only screen and (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+  }
   .hamburger {
     display: none;
   }
-  .container {
-    padding: 0 100px;
-  }
-  .nav {
-    height: auto;
-  }
   .navLinks {
-    position: static;
-    height: auto;
     display: flex;
     flex-direction: row;
+    margin: 0;
+    padding: 0;
+    max-height: none;
     background-color: transparent;
+    overflow: visible;
   }
   .navLink {
-    margin: 0 20px;
+    padding: 0 10px;
+    border-bottom: none;
+  }
+  .navLink:last-child {
+    padding-right: 0;
   }
   .navLink a {
-    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .navbarTitle {
+    font-size: 32px;
+    margin-right: auto;
   }
 }
 
