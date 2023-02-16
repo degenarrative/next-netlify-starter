@@ -2,43 +2,41 @@ import { useState } from 'react';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
 
-export default function Navbar() {
-  const [open, setOpen] = useState(false);
+export default function Navbar({ title }) {
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleClick = () => {
-    setOpen(!open);
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
-    <nav className={styles.nav}>
-      <div className={styles.container}>
-        <button className={styles.hamburger} onClick={handleClick}>
-          <div className={open ? styles.line1open : styles.line1}></div>
-          <div className={open ? styles.line2open : styles.line2}></div>
-          <div className={open ? styles.line3open : styles.line3}></div>
-        </button>
-        <ul className={`${styles.navLinks} ${open ? styles.navOpen : ''}`}>
-          <li className={styles.navLink}>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-          <li className={styles.navLink}>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </li>
-          <li className={styles.navLink}>
-            <Link href="/contact">
-              <a>Contact</a>
-            </Link>
-          </li>
-        </ul>
-      </div>
+    <nav className={styles.navbar}>
+      <div className={styles.navbarTitle}>{title}</div>
+      <button className={styles.hamburger} onClick={handleToggle}>
+        <span className={styles.hamburgerBox}>
+          <span className={styles.hamburgerInner}></span>
+        </span>
+      </button>
+      <ul className={`${styles.navLinks} ${isOpen ? styles.open : ''}`}>
+        <li className={styles.navLink}>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
+        </li>
+        <li className={styles.navLink}>
+          <Link href="/about">
+            <a>About</a>
+          </Link>
+        </li>
+        <li className={styles.navLink}>
+          <Link href="/contact">
+            <a>Contact</a>
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 }
-
 
 
 
