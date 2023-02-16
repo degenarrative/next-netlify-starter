@@ -14,6 +14,9 @@ export default function Home() {
       <Navbar />
 
       <main className="main-content">
+        <div className="main-image">
+          <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
+        </div>
         <div className="main-text">
           <Header title="...degenarrative..." />
           <p>
@@ -27,16 +30,12 @@ export default function Home() {
           </p>
           <a href="/join-list" className="btn btn-primary">Join the List</a>
         </div>
-        <div className="main-image">
-          <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
-        </div>
       </main>
 
       <Footer/>
     </div>
   )
 }
-
 
 
 
