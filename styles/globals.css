@@ -66,8 +66,6 @@ code {
 }
 
 .main-content {
-  display: flex;
-  align-items: center;
   max-width: 1024px;
   margin: 0 auto;
   border-left: 1px solid #ddd;
@@ -77,10 +75,12 @@ code {
 
 .main-text {
   width: 50%;
+  float: left;
 }
 
 .main-image {
   width: 50%;
+  float: left;
   text-align: center;
 }
 
