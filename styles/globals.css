@@ -60,3 +60,29 @@ code {
   background-color: #0055b3;
 }
 
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main-text {
+  flex: 1 0 50%;
+  padding-right: 1rem;
+}
+
+.main-image {
+  flex: 1 0 50%;
+  text-align: center;
+}
+
+.main-image img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  shape-outside: circle();
+  float: right;
+  margin-left: 1rem;
+}
+
