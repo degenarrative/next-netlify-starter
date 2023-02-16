@@ -3,11 +3,11 @@ import Link from 'next/link';
 import styles from './Navbar.module.css';
 
 export default function Navbar({ title }) {
-  const [showMenu, setShowMenu] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
-  };
+  function toggleMenu() {
+    setIsOpen((prevIsOpen) => !prevIsOpen);
+  }
 
   return (
     <nav className={styles.navbar}>
@@ -16,29 +16,32 @@ export default function Navbar({ title }) {
           <a>{title}</a>
         </Link>
       </div>
-      <button
-        className={styles['navbar-toggle']}
-        onClick={toggleMenu}
-        aria-label={showMenu ? 'Close menu' : 'Open menu'}
-      >
-        <div className={styles.iconBar}></div>
-        <div className={styles.iconBar}></div>
-        <div className={styles.iconBar}></div>
+
+      <button className={styles.toggle} onClick={toggleMenu}>
+        <span className={styles.hamburger} aria-hidden="true"></span>
       </button>
-      <div className={`${styles.navLinks} ${showMenu ? 'showMenu' : ''}`}>
-        <Link href="/about">
-          <a className={styles.navItem}>About</a>
-        </Link>
-        <Link href="/blog">
-          <a className={styles.navItem}>Blog</a>
-        </Link>
-        <Link href="/contact">
-          <a className={styles.navItem}>Contact</a>
-        </Link>
-      </div>
+
+      <ul className={`${styles.menu} ${isOpen ? styles.showMenu : ''}`}>
+        <li>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/about">
+            <a>About</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/contact">
+            <a>Contact</a>
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 }
+
 
 
 
