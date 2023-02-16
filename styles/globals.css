@@ -60,10 +60,18 @@ code {
   background-color: #0055b3;
 }
 
+.wrapper {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
 .main-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .main-text {
