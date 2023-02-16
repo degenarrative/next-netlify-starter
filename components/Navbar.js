@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from './Navbar.module.css';
 
 export default function Navbar({ title }) {
-  function toggleMenu() {
-    const navbarToggle = document.querySelector('.navbar-toggle');
-    const navLinks = document.querySelector('.navLinks');
-    navbarToggle.classList.toggle('active');
-    navLinks.classList.toggle('showMenu');
-  }
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
 
   return (
     <nav className={styles.navbar}>
@@ -17,12 +16,12 @@ export default function Navbar({ title }) {
           <a>{title}</a>
         </Link>
       </div>
-      <button className={`${styles.navbarToggle} navbar-toggle`} onClick={toggleMenu}>
+      <button className={styles['navbar-toggle']} onClick={toggleMenu}>
         <div className={styles.iconBar}></div>
         <div className={styles.iconBar}></div>
         <div className={styles.iconBar}></div>
       </button>
-      <div className={`${styles.navLinks} navLinks`}>
+      <div className={`${styles.navLinks} ${showMenu ? 'showMenu' : ''}`}>
         <Link href="/about">
           <a className={styles.navItem}>About</a>
         </Link>
@@ -36,6 +35,7 @@ export default function Navbar({ title }) {
     </nav>
   );
 }
+
 
 
 
