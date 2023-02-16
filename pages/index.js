@@ -14,9 +14,6 @@ export default function Home() {
       <Navbar />
 
       <main className="main-content">
-        <div className="main-image">
-          <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
-        </div>
         <div className="main-text">
           <Header title="...degenarrative..." />
           <p>
@@ -29,6 +26,9 @@ export default function Home() {
             Degenarrative is at the forefront of a new era in design, where digital and physical art collide to create something truly extraordinary. Don't miss out on your chance to be part of this groundbreaking movement. Join the White List now and follow Degenarrative on Twitter and Discord to stay up-to-date on the latest developments.
           </p>
           <a href="/join-list" className="btn btn-primary">Join the List</a>
+        </div>
+        <div className="main-image">
+          <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
         </div>
       </main>
 
