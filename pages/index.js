@@ -18,12 +18,15 @@ export default function Home() {
         <p>Get ready to experience the future of digital collectibles with Degenarrative, the trailblazing studio pushing the boundaries of design and technology. Specializing in immersive digital collectibles, Degenarrative is leading the way with their groundbreaking new AI-generated 777 NFT collection.</p>
         <p>Forget everything you thought you knew about digital art. Degenarrative's NFTs offer an unparalleled level of complexity and sophistication that will transport you to another dimension. Each piece is a unique masterpiece, blending cutting-edge design with state-of-the-art blockchain technology to create an experience unlike anything else on the market.</p>
         <p>Degenarrative is at the forefront of a new era in design, where digital and physical art collide to create something truly extraordinary. Don't miss out on your chance to be part of this groundbreaking movement. Join the White List now and follow Degenarrative on Twitter and Discord to stay up-to-date on the latest developments.</p>
-        <p>Experience the future of design and technology with Degenarrative. Are you ready?</p>
+        <div style={{ display: "flex", justifyContent: "center", marginTop: "2rem" }}>
+          <a href="/join-list" className="btn btn-primary">Join the List</a>
+        </div>
       </main>
 
       <Footer/>
     </div>
   )
 }
+
 
 
