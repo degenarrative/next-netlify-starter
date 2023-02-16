@@ -1,4 +1,4 @@
-.navbar {
+nav {
   background-color: #333;
   color: #fff;
   display: flex;
@@ -7,135 +7,27 @@
   padding: 10px;
 }
 
-.navbarTitle {
-  font-size: 24px;
-}
-
-.hamburger {
-  display: block;
-  position: relative;
-  z-index: 1;
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-  border: none;
-  background: transparent;
-}
-
-.hamburger:focus {
-  outline: none;
-}
-
-.hamburgerBox {
-  width: 30px;
-  height: 24px;
-  display: inline-block;
-  position: relative;
-}
-
-.hamburgerInner {
-  display: block;
-  top: 50%;
-  margin-top: -2px;
-}
-
-.hamburgerInner,
-.hamburgerInner::before,
-.hamburgerInner::after {
-  width: 30px;
-  height: 2px;
-  background-color: #fff;
-  border-radius: 4px;
-  position: absolute;
-  transition: transform 0.3s ease;
-}
-
-.hamburgerInner::before,
-.hamburgerInner::after {
-  content: "";
-  display: block;
-}
-
-.hamburgerInner::before {
-  top: -10px;
-}
-
-.hamburgerInner::after {
-  bottom: -10px;
-}
-
-.open .hamburgerInner {
-  transform: rotate(45deg);
-}
-
-.open .hamburgerInner::before {
-  transform: translate(10px, -10px) rotate(45deg);
-}
-
-.open .hamburgerInner::after {
-  transform: translate(10px, 10px) rotate(-45deg);
-}
-
-.navLinks {
-  display: flex;
-  flex-direction: column;
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 100%;
-  background-color: #333;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  max-height: 0;
+  display: flex;
 }
 
-.navLink {
-  padding: 10px;
-  border-bottom: 1px solid #555;
+nav li {
+  margin-right: 10px;
 }
 
-.navLink a {
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
   color: #fff;
   text-decoration: none;
 }
 
-.open .navLinks {
-  max-height: 300px;
+nav a:hover {
+  text-decoration: underline;
 }
-@media only screen and (min-width: 768px) {
-  .navbar {
-    flex-direction: row;
-  }
-  .hamburger {
-    display: none;
-  }
-  .navLinks {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    max-height: none;
-    background-color: transparent;
-    overflow: visible;
-  }
-  .navLink {
-    padding: 0 10px;
-    border-bottom: none;
-  }
-  .navLink:last-child {
-    padding-right: 0;
-  }
-  .navLink a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  .navbarTitle {
-    font-size: 32px;
-    margin-right: auto;
-  }
-}
-
-
 
