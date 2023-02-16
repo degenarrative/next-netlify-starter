@@ -1,10 +1,26 @@
+import { useState } from 'react'
 import Link from 'next/link'
 import styles from './Navbar.module.css'
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
     <nav className={`${styles.navbar}`}>
-      <ul className={styles.navList}>
+      <button
+        className={`${styles.navbarToggle}`}
+        onClick={toggleMenu}
+        aria-label="Toggle navigation"
+      >
+        <span className={`${styles.iconBar}`}></span>
+        <span className={`${styles.iconBar}`}></span>
+        <span className={`${styles.iconBar}`}></span>
+      </button>
+      <ul className={`${styles.navList} ${isOpen ? styles.showMenu : ''}`}>
         <li className={styles.navItem}>
           <Link href="/">
             <a className={styles.navLink}>Home</a>
@@ -24,4 +40,5 @@ export default function Navbar() {
     </nav>
   )
 }
+
 
