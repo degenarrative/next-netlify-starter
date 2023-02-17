@@ -50,6 +50,8 @@ export default function Home() {
           <div className="main-image">
             <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
           </div>
+         </div>
+         <div className="main-content wrapper">
           <div className="main-text">
             <p>
             Against this dystopian backdrop, a rebellion has emerged. Neo-Elite Radical Degens, a faction of rogue tech-savants, aka "NERDs," operates in the shadows and wields a new breed of weapons: hardware-hacking guns, capable of manipulating the very tech that fuels their oppressors. Guided by the enigmatic figure known only as "The Hacker," the Nerds are a formidable force, striving to free the downtrodden from the yoke of corporate tyranny.
@@ -61,6 +63,8 @@ export default function Home() {
           <div className="main-image">
             <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
           </div>
+         </div>
+         <div className="main-content wrapper">
           <div className="main-text">
             <p>
             The ingenuity of the NERDs has allowed them to build their own fleet of derelict ships. Salvaged from the scrap yards of the galaxy, and reworked with their own proprietary tech, these vessels are their mobile strongholds from which they launch daring raids against the corporations and their minions.
@@ -69,6 +73,7 @@ export default function Home() {
             This is the NERD War; a struggle for the soul of humanity, fought with electrons in the neon-lit alleyways of cyberspace. Fire and code, blood and the pulse of binary. The streets of the future boil over as the NERDs and Corporations clash in a conflict that will define their generation.
             </p>
           </div>
+         </div>
         </div>
         <div className="btn-container">
           <a href="#nerd" className="btn btn-primary" onClick={scrollToNerdSection}>NERD</a>
