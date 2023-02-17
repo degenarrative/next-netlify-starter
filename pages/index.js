@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import Header from '@components/Header';
-import Navbar from '@components/Navbar';
-import Footer from '@components/Footer';
+import Head from 'next/head'
+import Header from '@components/Header'
+import Navbar from '@components/Navbar'
+import Footer from '@components/Footer'
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <Navbar />
 
       <main>
-        <div className="main-content">
+        <div className="main-content wrapper">
           <div className="main-text">
             <Header title="...degenarrative..." />
             <p>
@@ -32,11 +32,10 @@ export default function Home() {
             <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
           </div>
         </div>
+
+        <Footer/>
       </main>
-
-      <Footer />
     </div>
-  );
+  )
 }
-
 
