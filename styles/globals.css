@@ -69,8 +69,12 @@ code {
 .main-text {
   width: 50%;
   float: left;
-  padding-right: 0;
+  padding-right: 30px;
   flex: 1;
+}
+
+.main-text p {
+  padding-bottom: 20px;
 }
 
 .main-image {
@@ -95,6 +99,7 @@ code {
   }
   .main-text {
     width: 100%;
+    padding-right: 0;
   }
   .main-image {
     width: 100%;
