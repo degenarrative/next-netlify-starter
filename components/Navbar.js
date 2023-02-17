@@ -7,7 +7,7 @@ export default function Navbar() {
       <ul className={styles.navList}>
         <li>
           <Link href="/">
-            <a className={styles.navLink}>Home</a>
+            <a className={styles.navLink}>degenarrative</a>
           </Link>
         </li>
         <li className={styles.navListItem}>
