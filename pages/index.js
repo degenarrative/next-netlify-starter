@@ -42,14 +42,13 @@ export default function Home() {
         </div>
         <Header title="Neo-Elite Radical Degens" />
         <div className="main-content wrapper" id="nerd-section">
+          <div className="main-image">
+            <img src="/NERD_boy.png" alt="Nerd Boy Image" width="512" height="512" />
+          </div>
           <div className="main-text">
-            <h2>Neo-Elite Radical Degens</h2>
             <p>
             The year is 2078. Technology is ubiquitous; shaping every aspect of life in ways once thought impossible. The galaxy itself burns with the light of progress, but restlessness lurks in the shadows. The great leap forward came a price. Corporate power grew to levels beyond reason - a blackened edge at the corners of existence.
             </p>          
-          </div>
-          <div className="main-image">
-            <img src="/NERD_boy.png" alt="Nerd Boy Image" width="512" height="512" />
           </div>
          </div>
          <div className="main-content wrapper">
