@@ -56,18 +56,23 @@ code {
 }
 
 .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-content {
   max-width: 1024px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .main-text {
   width: 50%;
   float: left;
-  padding-right: 20px;
+  padding-right: 10px;
+  flex: 1;
+  margin-right: 20px;
 }
 
 .main-image {
@@ -79,6 +84,8 @@ code {
 .main-image img {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 768px) {
