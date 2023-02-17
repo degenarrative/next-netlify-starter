@@ -25,11 +25,13 @@ export default function Home() {
             </p>
             <p>
             The studio's vision is to use AI to empower creators to become directors and unlock new levels of creativity. Neo-Elite Radical Degens is the first release of Digital Collectable Concept Art by Degenerative. Set in the year is 2078, technology has become ubiquitous, shaping every aspect of life in ways once deemed impossible, but with this leap forward came a price....            </p>
+            <div class="join-list-btn-container">
+              <a href="/join-list" className="btn btn-primary">Neo-Elite Radical Degens</a>
+            </div>
           </div>
           <div className="main-image">
             <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
           </div>
-          <a href="/join-list" className="btn btn-primary">Neo-Elite Radical Degens</a>
         </div>
 
         <Footer/>
@@ -37,5 +39,6 @@ export default function Home() {
     </div>
   )
 }
+
 
 
