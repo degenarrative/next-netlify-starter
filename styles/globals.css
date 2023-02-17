@@ -90,6 +90,13 @@ code {
   height: auto;
 }
 
+.join-list-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+
 @media (max-width: 768px) {
   .container {
     padding: 0;
