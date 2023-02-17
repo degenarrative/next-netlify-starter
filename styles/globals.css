@@ -70,13 +70,13 @@ code {
 .main-text {
   width: 50%;
   float: left;
-  padding-right: 10px;
+  padding-right: 0px;
   flex: 1;
 }
 
 .main-image {
   width: 50%;
-  float: left;
+  float: right;
   text-align: center;
 }
 
