@@ -40,6 +40,11 @@ code {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
 
 .btn-primary {
   color: #fff;
