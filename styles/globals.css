@@ -73,7 +73,7 @@ code {
 
 .main-text {
   width: 50%;
-  float: left;
+  float: center;
   padding-right: 30px;
   flex: 1;
 }
@@ -84,7 +84,7 @@ code {
 
 .main-image {
   width: 50%;
-  float: right;
+  float: center;
   text-align: center;
 }
 
