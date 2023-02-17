@@ -14,9 +14,9 @@ export default function Home() {
       <Navbar/>
 
       <main>
+      <Header title="...degenarrative..." />
         <div className="main-content wrapper">
           <div className="main-text">
-          <Header title="...degenarrative..." />
             <p>
             Degenerative is an AI-powered creative studio founded by Jacob Stephens, an experienced visual creative technologist who has worked at companies such as Lucasfilm and Industrial Light and Magic. Integrating art, computer graphics, visual programming, and software development to create awe-inspiring immersive experiences.
             </p>
