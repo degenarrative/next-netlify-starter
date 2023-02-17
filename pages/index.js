@@ -49,7 +49,7 @@ export default function Home() {
             </p>          
           </div>
           <div className="main-image">
-            <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
+            <img src="/NERD_boy.png" alt="Nerd Boy Image" width="512" height="512" />
           </div>
          </div>
          <div className="main-content wrapper">
@@ -62,7 +62,7 @@ export default function Home() {
             </p>
           </div>
           <div className="main-image">
-            <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
+            <img src="/NERD_bot.png" alt="Nerd Bot Image" width="512" height="512" />
           </div>
          </div>
          <div className="main-content wrapper">
@@ -75,7 +75,7 @@ export default function Home() {
             </p>
           </div>
           <div className="main-image">
-            <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
+            <img src="/NERD_girl.png" alt="Nerd Girl Image" width="512" height="512" />
           </div>
         </div>
         <div className="btn-container">
