@@ -40,6 +40,7 @@ export default function Home() {
         <div className="btn-container">
           <a href="/join-list" className="btn btn-primary">Neo-Elite Radical Degens</a>
         </div>
+        <Header title="Neo-Elite Radical Degens" />
         <div className="main-content wrapper" id="nerd-section">
           <div className="main-text">
             <h2>Neo-Elite Radical Degens</h2>
@@ -72,6 +73,9 @@ export default function Home() {
             <p>
             This is the NERD War; a struggle for the soul of humanity, fought with electrons in the neon-lit alleyways of cyberspace. Fire and code, blood and the pulse of binary. The streets of the future boil over as the NERDs and Corporations clash in a conflict that will define their generation.
             </p>
+          </div>
+          <div className="main-image">
+            <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
           </div>
         </div>
         <div className="btn-container">
