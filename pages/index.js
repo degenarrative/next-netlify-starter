@@ -14,7 +14,7 @@ export default function Home() {
       <Navbar/>
 
       <main>
-        <div className="main-content">
+        <div className="main-content wrapper">
           <div className="main-text">
             <Header title="...degenarrative..." />
             <p>
