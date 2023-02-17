@@ -18,13 +18,13 @@ export default function Home() {
           <div className="main-text">
             <Header title="...degenarrative..." />
             <p>
-              Get ready to experience the future of digital collectibles with Degenarrative, the trailblazing studio pushing the boundaries of design and technology. Specializing in immersive digital collectibles, Degenarrative is leading the way with their groundbreaking new AI-generated 777 NFT collection.
+    Degenerative is an AI-powered creative studio founded by Jacob Stephens, an experienced visual creative technologist who has worked at companies such as Lucasfilm and Industrial Light and Magic. Integrating art, computer graphics, visual programming, and software development to create awe-inspiring immersive experiences.
             </p>
             <p>
-              Forget everything you thought you knew about digital art. Degenarrative's NFTs offer an unparalleled level of complexity and sophistication that will transport you to another dimension. Each piece is a unique masterpiece, blending cutting-edge design with state-of-the-art blockchain technology to create an experience unlike anything else on the market.
+              While working for George Lucas at Lucasfilm, Jacob collaborated with directors, artists, engineers, and his team to develop and support George’s vision for a toolset and pipeline to create high-quality digital pre-visualization sequences that was as easy and intuitive as film making in the real world. Since then, his singular focus has been to integrate cutting-edge technology into the creative process to push the boundaries of storytelling. 
             </p>
             <p>
-              Degenarrative is at the forefront of a new era in design, where digital and physical art collide to create something truly extraordinary. Don't miss out on your chance to be part of this groundbreaking movement. Join the White List now and follow Degenarrative on Twitter and Discord to stay up-to-date on the latest developments.
+              The studio's vision is to use AI to empower creators to become directors and unlock new levels of creativity. Neo-Elite Radical Degens is the first release of Digital Collectable Concept Art by Degenerative.
             </p>
             <a href="/join-list" className="btn btn-primary">Join the List</a>
           </div>
