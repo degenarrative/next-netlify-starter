@@ -84,12 +84,6 @@ code {
   margin: 0 auto;
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 @media (max-width: 768px) {
   .container {
     padding: 0 10px;
