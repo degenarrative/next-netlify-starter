@@ -4,6 +4,11 @@ import Navbar from '@components/Navbar'
 import Footer from '@components/Footer'
 
 export default function Home() {
+  function scrollToNerdSection(event) {
+    event.preventDefault();
+    const nerdSection = document.getElementById('nerd-section');
+    nerdSection.scrollIntoView({ behavior: 'smooth' });
+  }
   return (
     <div className="container">
       <Head>
@@ -34,7 +39,7 @@ export default function Home() {
         <div className="btn-container">
           <a href="/join-list" className="btn btn-primary">Neo-Elite Radical Degens</a>
         </div>
-        <div className="main-content wrapper">
+        <div className="main-content wrapper nerd-section">
           <div className="main-text">
             <h2>NERD</h2>
             <p>This is the NERD section of the page.</p>
