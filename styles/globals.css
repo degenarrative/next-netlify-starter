@@ -94,19 +94,4 @@ code {
   }
 }
 
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.main-text {
-  flex: 1;
-  margin-right: 40px;
-}
-
-.main-image img {
-  max-width: 100%;
-  height: auto;
-}
 
