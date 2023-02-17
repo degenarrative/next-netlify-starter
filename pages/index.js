@@ -9,6 +9,7 @@ export default function Home() {
     const nerdSection = document.getElementById('nerd-section');
     nerdSection.scrollIntoView({ behavior: 'smooth' });
   }
+
   return (
     <div className="container">
       <Head>
@@ -39,18 +40,21 @@ export default function Home() {
         <div className="btn-container">
           <a href="/join-list" className="btn btn-primary">Neo-Elite Radical Degens</a>
         </div>
-        <div className="main-content wrapper nerd-section">
+        <div className="main-content wrapper" id="nerd-section">
           <div className="main-text">
             <h2>NERD</h2>
             <p>This is the NERD section of the page.</p>
           </div>
         </div>
         <div className="btn-container">
-          <a href="#nerd" className="btn btn-primary">NERD</a>
+          <a href="#nerd" className="btn btn-primary" onClick={scrollToNerdSection}>NERD</a>
         </div>
         <Footer/>
       </main>
     </div>
+  )
+}
+
   )
 }
 
