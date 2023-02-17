@@ -93,9 +93,11 @@ code {
   .wrapper {
     flex-direction: column;
   }
+  .main-text {
+    width: 100%;
+  }
   .main-image {
-    margin-top: 0;
-    text-align: center;
+    width: 100%;
   }
 }
 
