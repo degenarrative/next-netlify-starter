@@ -40,7 +40,7 @@ export default function Home() {
         <div className="btn-container">
           <a href="/join-list" className="btn btn-primary">Neo-Elite Radical Degens</a>
         </div>
-        <div className="banner">
+        <div className="banner banner-container">
           <div className="banner-image">
             <img src="/NERD_banner.png" alt="NERD Banner Image" />
           </div>
