@@ -86,7 +86,7 @@ export default function Home() {
           <h2 class="section-title">NERD</h2>
             <div class="section-content">
               <p>Some text here</p>
-              <img src="degenarrative.png" alt="NERD Image">
+              <img src="degenarrative.png" alt="NERD Image" />
             </div>
         </section>
 
