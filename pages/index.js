@@ -82,6 +82,14 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <section class="section NERD responsive-section">
+          <h2 class="section-title">NERD</h2>
+            <div class="section-content">
+              <p>Some text here</p>
+              <img src="degenarrative.png" alt="NERD Image">
+            </div>
+        </section>
+
         <div className="btn-container">
           <a href="#nerd" className="btn btn-primary" onClick={scrollToNerdSection}>NERD</a>
         </div>
