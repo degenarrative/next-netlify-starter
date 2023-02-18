@@ -59,15 +59,15 @@ export default function Home() {
           <div className="main-image">
             <img src="/NERD_boy.png" alt="Nerd Boy Image" />
           </div>
+          <div className="main-image">
+            <img src="/NERD_bot.png" alt="Nerd Bot Image" />
+          </div>
          </div>
          <div className=" main-content wrapper">
           <div className="main-text">
             <p>
             The Corporations, unwilling to surrender their control of power, have mustered their own army of cybernetically enhanced soldiers and space-faring vessels. Their mission, to hunt down all Nerds and extinguish their revolution with a ruthless determination.
             </p>
-          </div>
-          <div className="main-image">
-            <img src="/NERD_bot.png" alt="Nerd Bot Image" />
           </div>
          </div>
          <div className="main-content wrapper">
