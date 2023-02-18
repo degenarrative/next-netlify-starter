@@ -39,6 +39,7 @@ export default function Home() {
         </div>
         <div className="btn-container">
           <a href="/join-list" className="btn btn-primary">Neo-Elite Radical Degens</a>
+          <br/>
         </div>
         <div className="banner banner-container" id="nerd-section">
           <div className="banner-image">
@@ -48,7 +49,7 @@ export default function Home() {
         <Header title="Neo-Elite Radical Degens" />
         <div className="wrapper">
           <div className="main-image">
-            <img src="/NERD_boy.png" alt="Nerd Boy Image" width="512" height="512" />
+            <img src="/NERD_boy.png" alt="Nerd Boy Image" />
           </div>
           <div className="main-text">
             <p>
@@ -66,12 +67,12 @@ export default function Home() {
             </p>
           </div>
           <div className="main-image">
-            <img src="/NERD_bot.png" alt="Nerd Bot Image" width="512" height="512" />
+            <img src="/NERD_bot.png" alt="Nerd Bot Image" />
           </div>
          </div>
          <div className="wrapper">
           <div className="main-image">
-            <img src="/NERD_girl.png" alt="Nerd Girl Image" width="512" height="512" />
+            <img src="/NERD_girl.png" alt="Nerd Girl Image" />
           </div>
           <div className="main-text">
             <p>
