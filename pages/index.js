@@ -93,7 +93,7 @@ export default function Home() {
             This is the NERD War; a struggle for the soul of humanity, fought with electrons in the neon-lit alleyways of cyberspace. Fire and code, blood and the pulse of binary. The streets of the future boil over as the NERDs and Corporations clash in a conflict that will define their generation.
             </p>
           </div>
-              <<img src="/NERD_girl.png" alt="Nerd Girl Image" />
+              <img src="/NERD_girl.png" alt="Nerd Girl Image" />
             </div>
         </section>
 
