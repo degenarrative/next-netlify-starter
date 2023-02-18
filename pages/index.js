@@ -85,8 +85,15 @@ export default function Home() {
         <section class="section NERD responsive-section">
           <h2 class="section-title">NERD</h2>
             <div class="section-content">
-              <p>Some text here</p>
-              <img src="degenarrative.png" alt="NERD Image" />
+              <div className="main-text">
+            <p>
+            The ingenuity of the NERDs has allowed them to build their own fleet of derelict ships. Salvaged from the scrap yards of the galaxy, and reworked with their own proprietary tech, these vessels are their mobile strongholds from which they launch daring raids against the corporations and their minions.
+            </p>
+            <p>
+            This is the NERD War; a struggle for the soul of humanity, fought with electrons in the neon-lit alleyways of cyberspace. Fire and code, blood and the pulse of binary. The streets of the future boil over as the NERDs and Corporations clash in a conflict that will define their generation.
+            </p>
+          </div>
+              <<img src="/NERD_girl.png" alt="Nerd Girl Image" />
             </div>
         </section>
 
