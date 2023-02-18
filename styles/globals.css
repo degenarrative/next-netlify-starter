@@ -121,6 +121,20 @@ code {
   height: auto;
 }
 
+.responsive-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.responsive-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
 @media (max-width: 768px) {
   .container {
     padding: 0;
