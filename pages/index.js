@@ -84,7 +84,7 @@ export default function Home() {
           </div>
         </div>
         <div className="btn-container">
-          <a href="#nerd" className="btn btn-primary" onClick={scrollToNerdSection}>NERD</a>
+          <a href="https://coda.io/form/Neo-Elite-Radical-Degens_dtwh87bz2h-" className="btn btn-primary" onClick={scrollToNerdSection}>NERD</a>
         </div>
         <Footer/>
       </main>
