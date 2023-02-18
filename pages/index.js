@@ -69,7 +69,7 @@ export default function Home() {
             <img src="/NERD_bot.png" alt="Nerd Bot Image" width="512" height="512" />
           </div>
          </div>
-         <div className="main-content wrapper">
+         <div className="wrapper">
           <div className="main-image">
             <img src="/NERD_girl.png" alt="Nerd Girl Image" width="512" height="512" />
           </div>
@@ -82,23 +82,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <section class="section NERD responsive-section">
-          <h2 class="section-title">NERD</h2>
-            <div class="section-content">
-              <div className="main-text">
-                <p>
-                  The ingenuity of the NERDs has allowed them to build their own fleet of derelict ships. Salvaged from the scrap yards of the galaxy, and reworked with their own proprietary tech, these vessels are their mobile strongholds from which they launch daring raids against the corporations and their minions.
-                </p>
-                <p>
-                  This is the NERD War; a struggle for the soul of humanity, fought with electrons in the neon-lit alleyways of cyberspace. Fire and code, blood and the pulse of binary. The streets of the future boil over as the NERDs and Corporations clash in a conflict that will define their generation.
-                </p>
-              </div>
-              <div className="main-image">
-                <img src="/NERD_girl.png" alt="Nerd Girl Image" />
-              </div>
-            </div>
-        </section>
-
         <div className="btn-container">
           <a href="#nerd" className="btn btn-primary" onClick={scrollToNerdSection}>NERD</a>
         </div>
