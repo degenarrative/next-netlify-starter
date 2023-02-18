@@ -37,10 +37,10 @@ export default function Home() {
             <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
           </div>
         </div>
-        <Header title="Neo-Elite Radical Degens" />
+        <Header title="Neo-Elite Radical Degens" id="nerd-section" />
         <div>
         </div>
-        <div className="banner banner-container" id="nerd-section">
+        <div className="banner banner-container">
           <div className="banner-image">
             <img src="/NERD_banner.png" alt="NERD Banner Image" />
           </div>        
