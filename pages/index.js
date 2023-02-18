@@ -84,7 +84,7 @@ export default function Home() {
           </div>
         </div>
         <div className="btn-container">
-          <a href="https://coda.io/form/Neo-Elite-Radical-Degens_dtwh87bz2h-" className="btn btn-primary" </a>
+          <a href="https://coda.io/form/Neo-Elite-Radical-Degens_dtwh87bz2h-" className="btn btn-primary">Link</a>
         </div>
         <Footer/>
       </main>
