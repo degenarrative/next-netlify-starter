@@ -41,13 +41,15 @@ export default function Home() {
           <a href="/join-list" className="btn btn-primary">Neo-Elite Radical Degens</a>
           <br/>
         </div>
+        <div>
+        </div>
         <div className="banner banner-container" id="nerd-section">
           <div className="banner-image">
             <img src="/NERD_banner.png" alt="NERD Banner Image" />
           </div>
         </div>
         <Header title="Neo-Elite Radical Degens" />
-        <div className="wrapper">
+        <div className="main-content wrapper">
           <div className="main-image">
             <img src="/NERD_boy.png" alt="Nerd Boy Image" />
           </div>
@@ -57,7 +59,7 @@ export default function Home() {
             </p>          
           </div>
          </div>
-         <div className="wrapper">
+         <div className=" main-content wrapper">
           <div className="main-text">
             <p>
             Against this dystopian backdrop, a rebellion has emerged. Neo-Elite Radical Degens, a faction of rogue tech-savants, aka "NERDs," operates in the shadows and wields a new breed of weapons: hardware-hacking guns, capable of manipulating the very tech that fuels their oppressors. Guided by the enigmatic figure known only as "The Hacker," the Nerds are a formidable force, striving to free the downtrodden from the yoke of corporate tyranny.
@@ -70,7 +72,7 @@ export default function Home() {
             <img src="/NERD_bot.png" alt="Nerd Bot Image" />
           </div>
          </div>
-         <div className="wrapper">
+         <div className="main-content wrapper">
           <div className="main-image">
             <img src="/NERD_girl.png" alt="Nerd Girl Image" />
           </div>
