@@ -43,10 +43,12 @@ export default function Home() {
         <div className="banner banner-container" id="nerd-section">
           <div className="banner-image">
             <img src="/NERD_banner.png" alt="NERD Banner Image" />
-          </div>
-            <p>
+          </div>        
+        </div>
+        <div>
+          <p>
             The year is 2078. Technology is ubiquitous; shaping every aspect of life in ways once thought impossible. The galaxy itself burns with the light of progress, but restlessness lurks in the shadows. The great leap forward came a price. Corporate power grew to levels beyond reason - a blackened edge at the corners of existence.
-            </p>          
+           </p>  
         </div>
         <div className="main-content wrapper">
           <div className="main-image">
