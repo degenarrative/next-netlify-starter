@@ -62,8 +62,9 @@ code {
 .wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start; /* add this line */
 }
+
 
 .main-content {
   max-width: 100%;
