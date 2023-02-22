@@ -29,9 +29,6 @@ export default function Home() {
             <p>
               Jacob Stephens, a visionary artist and technologist with over two decades of experience in digital experiences, installations and entertainment. Jacob's expertise spans various fields including animation, projection mapping, computer graphics, and visual programming, enabling him to create immersive experiences and interactive data visualizations that are truly exceptional. Jacob has collaborated with top companies such as Facebook, Gensler, and Lucasfilm, creating experiences that seamlessly blend the emotional aspects of animation and motion design with creative coding and digital interactions. As an early adopter of cryptocurrency and digital collectibles, Jacob brings a unique perspective to his work, producing intriguing and delightful ways to interact with digital assets and decentralized property ownership.
             </p>
-            <p>
-              From a childhood realization that money was just a physical representation of an abstract idea to a career exploring the intersection of art and commerce, Jacob Stephens has been on a journey of discovery that has led him to the forefront of the emerging field of AI-driven digital assets. With his vast experience and unique perspective, Jacob is charting a new course for the future of creativity and commerce, and his work with Degenarrative is a testament to his vision.
-            </p>
           </div>
           <div className="main-image">
             <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
