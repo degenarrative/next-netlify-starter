@@ -18,7 +18,6 @@ export default function Home() {
       </Head>
 
       <Navbar/>
-      <Header title="...degenarrative..." imageUrl="/degenarrative_banner.png"/>
       <main>
         <Header title="...degenarrative..." imageUrl="/degenarrative_banner.png"/>
         <div className="main-content wrapper">
