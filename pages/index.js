@@ -21,11 +21,6 @@ export default function Home() {
 
       <main>
         <Header title="...degenarrative..." />
-          <div className="banner banner-container">
-          <div className="banner-image">
-            <img src="/degenarrative_banner.png" alt="Degenarrative Banner Image" />
-          </div>        
-        </div>
         <div className="main-content wrapper">
           <div className="main-text">
             <p>
