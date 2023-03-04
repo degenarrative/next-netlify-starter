@@ -60,11 +60,11 @@ export default function Home() {
             <img src="/NERD_girl.png" alt="Nerd Girl Image" />
           </div>
           <div className="main-image">
-            <img src="/NERD_bot.png" alt="Nerd Bot Image" />
+            <img src="/degenarrative.png" alt="Nerd Bot Image" />
           </div>
         </div>
         <div className="btn-container">
-          <a href="https://coda.io/form/Neo-Elite-Radical-Degens_dtwh87bz2h-" className="btn btn-primary">Join Access Group</a>
+          <a href="https://coda.io/form/Neo-Elite-Radical-Degens_dtwh87bz2h-" className="btn btn-primary">Join Early Access</a>
         </div>
         <Footer/>
       </main>
