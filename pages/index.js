@@ -27,9 +27,6 @@ export default function Home() {
               Degenarrative is a nascent creative technology studio which harnesses cutting-edge AI and blockchain technology to create awe-inspiring immersive experiences and digital collectibles. With a revolutionary vision to use mobile webAR and web3 to build atomic ownable elements of larger creations and narratives, Degenarrative pushes the boundaries of what's possible in the digital entertainment industry. The studio's founder, Jacob Stephens, is a leading artist and technologist with over two decades of experience in art installations, digital experiences, and film and television. His expertise in animation, projection mapping, computer graphics, and visual programming allows Degenarrative to create truly exceptional immersive experiences and interactive data visualizations. As an early adopter of cryptocurrency and digital collectibles, Jacob brings a unique perspective to his work, producing intriguing and delightful ways to interact with digital assets and decentralized property ownership. Degenarrative is a vital destination for crypto currency traders, NFT collectors, digital art enthusiasts, and technologists looking for groundbreaking and innovative experiences.
             </p>
           </div>
-          <div className="main-image">
-            <img src="/degenarrative.png" alt="Degenarrative Image" width="512" height="512" />
-          </div>
         </div>
         
         <div id="nerd-section">
