@@ -58,22 +58,11 @@ export default function Home() {
             <img src="/NERD_girl.png" alt="Nerd Girl Image" />
           </div>
          </div>
-         <div className=" main-content wrapper">
-          <div className="main-text">
-            <p>
-            </p>
+         <div className="main-image">
+            <img src="/degenarrative.png" alt="Nerd Bot Image" />
           </div>
-         </div>
-         <div className="main-content wrapper">
-          <div className="main-text">
-            <p>
-            </p>
-            <p>
-            </p>
-          </div>
-        </div>
         <div className="btn-container">
-          <a href="https://coda.io/form/Neo-Elite-Radical-Degens_dtwh87bz2h-" className="btn btn-primary">Link</a>
+          <a href="https://coda.io/form/Neo-Elite-Radical-Degens_dtwh87bz2h-" className="btn btn-primary">Join Access Group</a>
         </div>
         <Footer/>
       </main>
