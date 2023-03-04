@@ -40,6 +40,7 @@ code {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
+
 .btn-container {
   display: flex;
   justify-content: center;
@@ -62,9 +63,8 @@ code {
 .wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* add this line */
+  align-items: flex-start;
 }
-
 
 .main-content {
   max-width: 100%;
@@ -73,9 +73,8 @@ code {
 }
 
 .main-text {
-  max-width: 80%; /* Change this value as per your need */
+  max-width: 80%;
   margin: 0 auto;
-  float: center;
   padding: 20px;
   flex: 1;
 }
@@ -86,7 +85,7 @@ code {
 
 .main-image {
   width: 50%;
-  float: center;
+  margin: 0 auto;
   text-align: center;
   padding: 20px;
 }
@@ -117,11 +116,13 @@ code {
   height: auto;
   display: flex;
   justify-content: center;
+  align-items: flex-start; /* added align-items property */
 }
 
 .banner-image img {
   max-width: 100%;
   height: auto;
+  align-self: flex-start; /* added align-self property */
 }
 
 .responsive-section {
@@ -153,5 +154,3 @@ code {
     text-align: center;
   }
 }
-
-
