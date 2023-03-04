@@ -20,7 +20,9 @@ export default function Home() {
       <Navbar/>
 
       <main>
+        <div className="header-wrapper">
         <Header title="...degenarrative..." imageUrl="/degenarrative_banner.png"/>
+        </div>
         <div className="main-content wrapper">
           <div className="main-text">
             <p>
