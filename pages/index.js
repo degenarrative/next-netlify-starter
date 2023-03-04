@@ -54,13 +54,13 @@ export default function Home() {
           <div className="main-image">
             <img src="/NERD_bot.png" alt="Nerd Bot Image" />
           </div>
-          </div>
-          <div className="main-content wrapper">
+         </div>
+         <div className="main-content wrapper">
           <div className="main-image">
             <img src="/NERD_girl.png" alt="Nerd Girl Image" />
           </div>
-         <div className="main-image">
-            <img src="/degenarrative.png" alt="Nerd Bot Image" />
+          <div className="main-image">
+            <img src="/NERD_bot.png" alt="Nerd Bot Image" />
           </div>
         </div>
         <div className="btn-container">
