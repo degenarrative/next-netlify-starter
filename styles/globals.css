@@ -73,6 +73,7 @@ code {
 }
 
 .main-text {
+  display: block;
   width: 50%;
   float: center;
   padding: 20px;
