@@ -43,11 +43,8 @@ export default function Home() {
         <div className="main-content wrapper">
         <div className="main-text">
           <p>
-            The year is 2078. Technology is ubiquitous; shaping every aspect of life in ways once thought impossible. The galaxy itself burns with the light of progress, but restlessness lurks in the shadows. The great leap forward came a price. Corporate power grew to levels beyond reason - a blackened edge at the corners of existence.
+            Prepare to enter a world beyond your wildest imagination as Degenarrative unveils its latest creation: Neo-Elite Radical Degens, a mesmerizing NFT series that transports you to a futuristic cyber punk setting. Immerse yourself in an AI-generated audio-visual experience that is set to revolutionize the world of digital art. The year is 2078, and the galaxy burns with the light of progress, but the shadows hide a restless energy that threatens to break free. Corporate power looms ominously, casting a dark edge on the very corners of existence. Join the rebellion and explore the depths of a new reality with Neo-Elite Radical Degens.
            </p> 
-            <p>
-            Against this dystopian backdrop, a rebellion has emerged. Neo-Elite Radical Degens, a faction of rogue tech-savants, aka "NERDs," operates in the shadows and wields a new breed of weapons: hardware-hacking guns, capable of manipulating the very tech that fuels their oppressors. Guided by the enigmatic figure known only as "The Hacker," the Nerds are a formidable force, striving to free the downtrodden from the yoke of corporate tyranny.
-            </p>
         </div>
         </div>
         <div className="main-content wrapper">
@@ -61,7 +58,6 @@ export default function Home() {
          <div className=" main-content wrapper">
           <div className="main-text">
             <p>
-            The Corporations, unwilling to surrender their control of power, have mustered their own army of cybernetically enhanced soldiers and space-faring vessels. Their mission, to hunt down all Nerds and extinguish their revolution with a ruthless determination.
             </p>
           </div>
          </div>
@@ -71,10 +67,8 @@ export default function Home() {
           </div>
           <div className="main-text">
             <p>
-            The ingenuity of the NERDs has allowed them to build their own fleet of derelict ships. Salvaged from the scrap yards of the galaxy, and reworked with their own proprietary tech, these vessels are their mobile strongholds from which they launch daring raids against the corporations and their minions.
             </p>
             <p>
-            This is the NERD War; a struggle for the soul of humanity, fought with electrons in the neon-lit alleyways of cyberspace. Fire and code, blood and the pulse of binary. The streets of the future boil over as the NERDs and Corporations clash in a conflict that will define their generation.
             </p>
           </div>
         </div>
