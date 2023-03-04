@@ -3,6 +3,7 @@
   height: auto;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .banner-image img {
