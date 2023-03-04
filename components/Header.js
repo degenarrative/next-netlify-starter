@@ -1,15 +1,14 @@
 import styles from './Header.module.css'
 
-export default function Header({ title }) {
+export default function Header({ title, imageUrl }) {
   return (
     <header className={styles.header}>
       <div className="banner banner-container">
         <div className="banner-image">
-          <img src="/degenarrative_banner.png" alt="Degenarrative Banner Image" />
+          <img src={imageUrl} alt="Degenarrative Banner Image" />
         </div>
       </div>
       <h1 className={styles.title}>{title}</h1>
     </header>
   )
 }
-
