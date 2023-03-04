@@ -73,8 +73,8 @@ code {
 }
 
 .main-text {
-  display: block;
-  width: 50%;
+  max-width: 70%; /* Change this value as per your need */
+  margin: 0 auto;
   float: center;
   padding: 20px;
   flex: 1;
