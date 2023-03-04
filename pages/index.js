@@ -36,8 +36,7 @@ export default function Home() {
             <img src="/NERD_banner.png" alt="NERD Banner Image" />
           </div>        
         </div>
-        <Header title="Neo-Elite Radical Degens" />
-        <div className="main-content wrapper">
+        <div className="main-content wrapper">Neo-Elite Radical Degens
         <div className="main-text">
           <p>
             Prepare to enter a world beyond your wildest imagination as Degenarrative unveils its latest creation: Neo-Elite Radical Degens, a mesmerizing NFT series that transports you to a futuristic cyber punk setting. Immerse yourself in an AI-generated audio-visual experience that is set to revolutionize the world of digital art. The year is 2078, and the galaxy burns with the light of progress, but the shadows hide a restless energy that threatens to break free. Corporate power looms ominously, casting a dark edge on the very corners of existence. Join the rebellion and explore the depths of a new reality with Neo-Elite Radical Degens.
