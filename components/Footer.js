@@ -4,8 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Twitter <a href="https://twitter.com/degenarrative"><img src="/twitter.svg" alt="Twitter Logo" className={styles.logo} /></a>
-        Discord <a href="https://discord.gg/F3vteyNEpx"><img src="/discord.svg" alt="Discord Logo" className={styles.logo} /></a>
+        <a href="https://twitter.com/degenarrative"><img src="/twitter.svg" alt="Twitter Logo" className={styles.logo} />Twitter</a>
       </footer>
     </>
   )
