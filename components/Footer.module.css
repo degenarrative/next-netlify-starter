@@ -5,7 +5,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
 }
 
 .logo {
@@ -13,3 +12,8 @@
   margin: 5px;
   filter: invert(1);
 }
+
+.footer a {
+  color: #fff;
+}
+
