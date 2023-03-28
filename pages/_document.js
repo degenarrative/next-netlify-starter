@@ -1,20 +1,12 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
-  }
-
   render() {
     return (
       <Html>
         <Head>
-          {/* Add the Google Tag Manager code here */}
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-SBDR1ZVKYN"
-          ></script>
+          {/* Google Tag Manager code */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-SBDR1ZVKYN"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -25,6 +17,7 @@ class MyDocument extends Document {
               `,
             }}
           />
+          {/* End Google Tag Manager code */}
         </Head>
         <body>
           <Main />
@@ -36,3 +29,4 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
